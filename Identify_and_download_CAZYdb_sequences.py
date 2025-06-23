@@ -31,7 +31,6 @@ else:
     
 #%%
 cazydb=pd.read_csv(cazyfile, sep='\t', encoding='utf-8', names=['Family', 'Taxa', 'Strain','Accession','Source'], header=None)
-
 n_sample=50
 
 subset_df_unfiltered=pd.DataFrame()
